@@ -1,0 +1,20 @@
+
+##config
+---
+context: "/"
+group: nest
+project: nest-kafka
+description: nest-kafka
+prefix: '/api'
+local:
+  common:
+    http-port: 3000
+    log-level: info
+development:
+  common:
+    http-port: 3000
+    log-level: info
+production:
+  common:
+    http-port: 3000
+    log-level: info
